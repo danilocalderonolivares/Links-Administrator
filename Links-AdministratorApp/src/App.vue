@@ -1,28 +1,63 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <nav class="navbar navbar-dark bg-primary">
+      <a href="/" class="navbar-brand"> Links Administrator</a>
+    </nav>
+    <!-- Main content -->
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-header text-center">
+              <h3>Add a new link</h3>
+            </div>
+            <div class="card-body">
+              <form>
+
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-8 text-center" >
+
+          <img src="./assets/logo.png">
+          <div class="card">
+            <div class="card-header">
+              <h3> Websides List</h3>
+            </div>
+            <div class="card-body">
+              <table>
+                
+              </table>
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+    
+
+   
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+<script>
+  export default {
+    name: 'App',
+
   }
-}
+
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {}
+
 </style>
+
