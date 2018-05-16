@@ -12,8 +12,22 @@
               <h3>Add a new link</h3>
             </div>
             <div class="card-body">
-              <form>
-
+              <form @submit.prevent="AddNewLink">
+                <div class="form-group">
+                  <input type="text" class="form-control" v-model="NewWebside.Name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" v-model="NewWebside.Author" placeholder="Author">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" v-model="NewWebside.Url" placeholder="URL">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" v-model="NewWebside.Description" placeholder="Description">
+                </div>
+                <div>
+                 <button type="submit" class="btn btn-primary">Add</button>
+                </div>
               </form>
 
             </div>
@@ -28,8 +42,20 @@
               <h3> Websides List</h3>
             </div>
             <div class="card-body">
-              <table>
-                
+              <table class="table table-striped table-bordered">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Description</th>
+                    <th>Operations</th>
+                  </tr>
+
+                </thead>
+                <tbody>
+
+                </tbody>
+
               </table>
             </div>
 
@@ -48,13 +74,8 @@
 </template>
 
 
-<script>
-  export default {
-    name: 'App',
+<script src="../src/App.js"></script>
 
-  }
-
-</script>
 
 <style>
   #app {}
