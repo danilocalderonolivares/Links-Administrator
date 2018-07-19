@@ -1,8 +1,8 @@
 {
-  "name": "links-administratorapp",
+  "name": "vueexample",
   "version": "1.0.0",
-  "description": " A vue.js proyect",
-  "author": "Danilo Calderon",
+  "description": "a vue proyect",
+  "author": "danilocalderonolivares <dcalderono@ucenfotec.ac.cr>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -10,9 +10,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "firebase": "^5.0.2",
-    "vue": "^2.5.2",
-    "vuefire": "^1.4.5"
+    "vee-validate": "^2.0.9",
+    "vue": "^2.5.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

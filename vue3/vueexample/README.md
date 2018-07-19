@@ -1,6 +1,6 @@
-# links-administratorapp
+# vueexample
 
->  A vue.js proyect
+> a vue proyect
 
 ## Build Setup
 
